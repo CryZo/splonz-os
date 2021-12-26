@@ -1,0 +1,26 @@
+#include "notes.h"
+
+// Keyboard cat
+// Score available at https://musescore.com/user/142788/scores/147371
+
+#define KEYBOARDCAT { \
+  REST,1,\
+  REST,1,\
+  NOTE_C4,4, NOTE_E4,4, NOTE_G4,4, NOTE_E4,4, \
+  NOTE_C4,4, NOTE_E4,8, NOTE_G4,-4, NOTE_E4,4,\
+  NOTE_A3,4, NOTE_C4,4, NOTE_E4,4, NOTE_C4,4,\
+  NOTE_A3,4, NOTE_C4,8, NOTE_E4,-4, NOTE_C4,4,\
+  NOTE_G3,4, NOTE_B3,4, NOTE_D4,4, NOTE_B3,4,\
+  NOTE_G3,4, NOTE_B3,8, NOTE_D4,-4, NOTE_B3,4,\
+  \
+  NOTE_G3,4, NOTE_G3,8, NOTE_G3,-4, NOTE_G3,8, NOTE_G3,4, \
+  NOTE_G3,4, NOTE_G3,4, NOTE_G3,8, NOTE_G3,4,\
+  NOTE_C4,4, NOTE_E4,4, NOTE_G4,4, NOTE_E4,4, \
+  NOTE_C4,4, NOTE_E4,8, NOTE_G4,-4, NOTE_E4,4,\
+  NOTE_A3,4, NOTE_C4,4, NOTE_E4,4, NOTE_C4,4,\
+  NOTE_A3,4, NOTE_C4,8, NOTE_E4,-4, NOTE_C4,4,\
+  NOTE_G3,4, NOTE_B3,4, NOTE_D4,4, NOTE_B3,4,\
+  NOTE_G3,4, NOTE_B3,8, NOTE_D4,-4, NOTE_B3,4,\
+  \
+  NOTE_G3,-1, \
+}
